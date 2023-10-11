@@ -5,5 +5,5 @@
 * [Notebook](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/TelcoCustomerChurn.ipynb)
 * [Article](https://derrickmbarani.hashnode.dev/data-science-for-beginners-2023-2024-road-map)
 
-  #### Week 2 Assignment:
-  * [Article](https://derrickmbarani.hashnode.dev/exploratory-data-analysis-using-data-visualization-techniques)
+#### Week 2 Assignment:
+* [Article](https://derrickmbarani.hashnode.dev/exploratory-data-analysis-using-data-visualization-techniques)
