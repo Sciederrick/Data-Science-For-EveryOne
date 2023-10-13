@@ -3,6 +3,7 @@
 #### Week 1 Assignment:
 * [Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) 
 * [Notebook](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/TelcoCustomerChurn.ipynb)
+* [Notebook - plug n play link](https://colab.research.google.com/drive/1YyStTZjQjcTFGqnzKOeOAEav7d9k3urt?usp=sharing#scrollTo=4A8USjrFPhmn)
 * [Article](https://derrickmbarani.hashnode.dev/data-science-for-beginners-2023-2024-road-map)
 
 #### Week 2 Assignment:
