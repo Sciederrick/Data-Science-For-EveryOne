@@ -9,8 +9,8 @@ So, if you were in charge of predicting customer churn how would you go about us
   
 **Assignment Submission:**
 * [Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) 
-* [Notebook](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/TelcoCustomerChurn.ipynb)
-* [Notebook - plug n play link](https://colab.research.google.com/drive/1YyStTZjQjcTFGqnzKOeOAEav7d9k3urt?usp=sharing#scrollTo=4A8USjrFPhmn)
+* [Notebook - Github](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/TelcoCustomerChurn.ipynb)
+* [Notebook - Google Colab](https://colab.research.google.com/drive/1YyStTZjQjcTFGqnzKOeOAEav7d9k3urt?usp=sharing#scrollTo=4A8USjrFPhmn)
 * [Article](https://derrickmbarani.hashnode.dev/data-science-for-beginners-2023-2024-road-map)
 
 ### Week 2:
@@ -20,3 +20,6 @@ So, if you were in charge of predicting customer churn how would you go about us
 
 **Assignment Submission:**
 * [Article](https://derrickmbarani.hashnode.dev/exploratory-data-analysis-using-data-visualization-techniques)
+* [Notebook - Github](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/rfm_analysis.ipynb)
+* [Notebook - Google Colab](https://colab.research.google.com/drive/1IzhU1RSLrHLP5CBOznZfhn0jJbGQdDfK?usp=sharing)
+* [Dataset](https://drive.google.com/file/d/1DsgZ316R73v4vDZ0UZjHlwbWq0_-NqvR/view?usp=drive_link)
