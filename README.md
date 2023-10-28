@@ -32,10 +32,10 @@ So, if you were in charge of predicting customer churn how would you go about us
   * With clean data, explore it using various visualizations and statistical analysis techniques. This step is crucial for understanding temporal patterns, identifying seasonal trends, and analyzing demand-supply dynamics by region and vehicle type.
   * Build the time-series chart.
     
-* Article: exploratory-data-analysis-using-data-visualization-techniques
+* Article: The Complete Guide to Time Series Models
 
 **Assignment Submission:**
-* [Article]()
+* [Article](https://derrickmbarani.hashnode.dev/the-complete-guide-to-time-series-models)
 * [Notebook - Github](https://github.com/Sciederrick/Data-Science-For-EveryOne/blob/main/TimeSeriesAnalysis.ipynb)
 * [Notebook - Google Colab](https://colab.research.google.com/drive/11oInlfV9dI4cJn0ul4-7gvQiY0ZjJKK4#scrollTo=gJ8cu_2EVgM2)
 * [Dataset](https://www.kaggle.com/datasets/mbaabuharun/craigslist-vehicles)
