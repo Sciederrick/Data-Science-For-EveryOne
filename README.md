@@ -41,19 +41,11 @@ So, if you were in charge of predicting customer churn how would you go about us
 * [Dataset](https://www.kaggle.com/datasets/mbaabuharun/craigslist-vehicles)
 
 ### Week 5:
-1). Project 1:
-
-As a lead data engineer at Data Science East Africa, you are responsible for building a data engineering pipeline to move weather data from a public API to Azure Synapse Analytics. You will then use Power BI to access the data from Azure Synapse Analytics and create a modern dashboard.
-
-(i). What are the best practices for moving data from a public API to a data lake?
-
-(ii). How can we ensure the security and reliability of the data pipeline?
-
-(iii). Implement this project, optimize your process, and create a GitHub repository where you will document all the processes including Screenshort, and a short video explaining the whole process.
-
-2). Project 5.
+* Question 2). Project 5.
 
 In week 4, we performed time series modelling on the Craigslist vehicles dataset, which is available on Kaggle at https://www.kaggle.com/datasets/mbaabuharun/craigslist-vehicles. This project builds on that work. You will need to download the dataset, copy the data using SQL to a local PostgreSQL database, move the data from your local database to Snowflake, perform data transformation with DBT (data build tool), and use your preferred data visualization tool to create a report and dashboard.
+
+* Article: Data Engineering for Beginners a Step by Step Guide
 
 **Assignment Submission:**
 * [Article](https://derrickmbarani.hashnode.dev/data-engineering-for-beginners-a-step-by-step-guide)
