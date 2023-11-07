@@ -1,40 +1,3 @@
-Columns in the csv file:
-unnamed,id,url,region,region_url,price,year,manufacturer,model,condition,cylinders,fuel,odometer,title_status,transmission,VIN,drive,size,type,paint_color,image_url,description,county,state,lat,long,posting_date,removal_date
-
-```SQL
-CREATE TABLE craigslist_vehicles (
-	unnamed VARCHAR,
-	id  VARCHAR PRIMARY KEY,
-	url VARCHAR,
-	region VARCHAR,
-	region_url VARCHAR,
-	price FLOAT,
-	year DATE,
-	manufacturer VARCHAR,
-	model VARCHAR,
-	condition VARCHAR,
-	cylinders VARCHAR,
-	fuel VARCHAR,
-	odometer INT,
-	title_status VARCHAR,
-	transmission VARCHAR,
-	VIN VARCHAR,
-	drive VARCHAR,
-	size VARCHAR,
-	type VARCHAR,
-	paint_color VARCHAR,
-	image_url VARCHAR,
-	description TEXT,
-	state VARCHAR,
-	lat FLOAT,
-	long FLOAT,
-	posting_date DATE,
-	removal_date DATE
-)
-```
-Do away with empty `county` column and fill null values
-
-```Python
 import argparse
 import os
 import pandas as pd
@@ -89,20 +52,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
-
-
-move the CSV to /tmp/ folder avoid permission issues given that we are using a different user ("postgress") who is different from the normal user ("derrick_mbarani") who is the owner of the file.
-
-use sed to remove the first row containing column definitions before storing the data in postgress
-```Shell
-sed -n '1d' '/tmp/craigslist_vehicles.csv'
-```
-
-ensure the order of the table schema columns is exactly the same as that in the .csv file, also ensure the datatypes are compatible
-```SQL
-COPY your_table_name FROM '/tmp/craigslist_vehicles.csv' DELIMITER ',' CSV HEADER;
-```
-
-Replace above command with the one below if not yet logged into the psql shell
-`psql -d your_database_name -U your_user_name -c <SQL command>`
