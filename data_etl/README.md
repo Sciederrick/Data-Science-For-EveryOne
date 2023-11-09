@@ -152,3 +152,9 @@ To load the data on Snowflake:
 * Use the default `public` schema (a schema is a logical goruping of related database objects)
 * Create a table [SQL statement](#SQL_schema)
 * Load data using the web interface file picker (select all relevant files at once)
+
+## Transforming data with DBT (Database Tool)
+
+Relevant link: [Github Repository](https://github.com/Sciederrick/dbt_craigslist_vehicles)
+
+
