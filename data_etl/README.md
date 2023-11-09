@@ -153,6 +153,9 @@ To load the data on Snowflake:
 * Create a table [SQL statement](#SQL_schema)
 * Load data using the web interface file picker (select all relevant files at once)
 
+![Snowflake dashboard image showing manual data](./../screenshots/Screenshot%202023-11-10%20002213.png)
+partial load due to inconsistencies (lesson: improve on ingestion techniques)
+
 ## Transforming data with DBT (Database Tool)
 
 Relevant link: [Github Repository](https://github.com/Sciederrick/dbt_craigslist_vehicles)
