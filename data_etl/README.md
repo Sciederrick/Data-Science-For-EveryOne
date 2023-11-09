@@ -1,4 +1,7 @@
-# Extract Transform Load featuring PostgreSQL, Snowflake, DBT & PowerBi
+# Extract Transform Load & Visualize Craigslist Vehicles Data
+
+*Featuring PostgreSQL, Snowflake, DBT & PowerBi*
+
 This README documents ETL process in data engineering using modern data tools.
 
 ## Data Source
