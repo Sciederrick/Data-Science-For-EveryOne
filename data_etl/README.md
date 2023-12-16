@@ -1,10 +1,12 @@
-# Extract Transform Load & Visualize Craigslist Vehicles Data
+![powerBI screenshot](https://github.com/Sciederrick/dbt_craigslist_vehicles/blob/main/screenshot.png)
+
+### Extract Transform Load & Visualize Craigslist Vehicles Data
 
 *Featuring PostgreSQL, Snowflake, DBT & PowerBi*
 
 This README documents ETL process in data engineering using modern data tools.
 
-## Data Source
+### Data Source
 
 **Source File**
 Columns in the csv file:
@@ -45,7 +47,7 @@ CREATE TABLE craigslist_vehicles (
 )
 ```
 
-## Data Cleaning
+### Data Cleaning
 
 * Do away with empty `county` column as it doesnot have any value for all rows
 * Impute null/missing values with mean and mode
@@ -110,7 +112,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Loading the clean csv file data on postgreSQL
+### Loading the clean csv file data on postgreSQL
 
 * Move the CSV to /tmp/ folder avoid permission issues given that we are using a different user ("postgress") who is different from the normal user ("derrick_mbarani") who is the owner of the file.
 
@@ -129,7 +131,7 @@ COPY craigslist_vehicles FROM '/tmp/craigslist_vehicles_cleaned.csv' DELIMITER '
 Use as a suffix replacing the above code snippet with the SQL command placeholder if not yet logged into the psql shell
 `psql -d your_database_name -U your_user_name -c <SQL command>`
 
-## Moving the data to Snowflake
+### Moving the data to Snowflake
 
 * Export table data as .csv
 ```SQL
@@ -153,10 +155,7 @@ To load the data on Snowflake:
 * Create a table [SQL statement](#SQL_schema)
 * Load data using the web interface file picker (select all relevant files at once)
 
-![Snowflake dashboard image showing manual data](./../screenshots/Screenshot%202023-11-10%20002213.png)
-partial load due to inconsistencies (lesson: improve on ingestion techniques)
-
-## Transforming data with DBT (Database Tool)
+### Transforming data with DBT (Database Tool)
 
 Relevant link: [Github Repository](https://github.com/Sciederrick/dbt_craigslist_vehicles)
 
